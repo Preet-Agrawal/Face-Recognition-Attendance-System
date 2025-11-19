@@ -1,4 +1,4 @@
-Face Recognition Attendance System
+Face Recognition Attendance System -
 
 A real-time Face Recognition Attendance System built using Python, MTCNN, OpenCV, and face-recognition.
 It detects faces through a webcam, recognizes registered users, and automatically marks attendance with secure SQL storage and Excel export.
@@ -50,3 +50,4 @@ Attendance logs can be exported to an Excel sheet directly from the SQL database
 
 Contributions
 Pull requests are welcome! Feel free to suggest improvements or report issues.
+
