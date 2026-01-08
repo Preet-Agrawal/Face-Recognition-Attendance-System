@@ -17,6 +17,8 @@ import pandas as pd
 import threading
 import time
 
+
+#adding runtime.txt for the comatiblity of python
 app = Flask(__name__)
 CORS(app)
 
@@ -477,3 +479,4 @@ if __name__ == '__main__':
     print("="*70 + "\n")
 
     app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
+
