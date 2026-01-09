@@ -23,9 +23,6 @@ from facenet_pytorch import MTCNN, InceptionResnetV1
 import torch
 from PIL import Image
 
-# Fallback to face_recognition if MTCNN fails
-import face_recognition
-
 class ProductionFaceRecognition:
     def __init__(self, device='cpu'):
         """
